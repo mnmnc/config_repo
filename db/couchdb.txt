@@ -1,0 +1,21 @@
+
+CouchDB installation @ Debian Wheezy
+
+1.	apt-get update
+2.	apt-get upgrade
+3.	apt-get install build-essential
+4.	apt-get install erlang-base-hipe
+5.	apt-get install erlang-dev
+6.	apt-get install erlang-manpages
+7.	apt-get install erlang-emmit
+8.	apt-get install erlang-eunit
+9.	apt-get install erlang-nox
+10.	apt-get install libicu-dev
+11.	apt-get install libmozjs-dev
+12.	apt-get install libcurl4-openssl-dev
+13.	apt-get install couchdb
+
+Running
+
+1. service couchdb start
+2. couchdb couchdb
