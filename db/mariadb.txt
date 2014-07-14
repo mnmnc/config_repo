@@ -1,0 +1,8 @@
+Maria DB install:
+
+sudo apt-get install python-software-properties
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
+sudo add-apt-repository 'deb http://mariadb.kisiek.net//repo/10.1/debian wheezy main'
+
+sudo apt-get update
+sudo apt-get install mariadb-server
