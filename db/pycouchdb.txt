@@ -1,0 +1,19 @@
+Python3 and pycouchdb for interaction with couchdb
+
+1.	apt-get install python3
+2.	apt-get install python3-pip
+3.	pip-3.2 install pycouchdb
+
+Example interaction
+
+1.	import pycouchdb
+
+2.	server = pycouchdb.Server("http://user:password@localhost:4444/")
+
+3.	db = server.database("test_database")
+
+# REQUESTING DOCUMENT
+4.	doc = db.get("document_id")
+
+# REQUESTING DOCUMENT REVISISIONS
+5.	revs = db.revision("document_id")
