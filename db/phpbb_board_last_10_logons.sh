@@ -1,0 +1,1 @@
+ssh hostname mysql -u user -ppass db -e "SELECT username, user_ip, user_style, user_lastvisit, FROM_UNIXTIME\(user_lastvisit\) as Date FROM phpbb_users ORDER BY user_lastvisit DESC LIMIT 10;";
