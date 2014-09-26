@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Wireshark]
+@="Wireshark"
+"icon"="C:\Program Files\Wireshark\Wireshark.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Wireshark\command]
+@="C:\Program Files\Wireshark\Wireshark.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Fiddler]
+@="Fiddler"
+"icon"="C:\Program Files (x86)\Fiddle\Fiddler.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\calc\command]
+@="C:\Program Files (x86)\Fiddle\Fiddler.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Fox]
+@="Fox"
+"icon"="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\calc\command]
+@="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
