@@ -1,20 +1,16 @@
-    Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
-    [HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Menu1]
-    "MUIVerb"="Apps"
-    "SubCommands"="notepad;calc"
-    "icon"="explorer.exe"
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\notepad]
-    @="Notepad"
-    "icon"="notepad.exe"
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\notepad\command]
-    @="notepad.exe"
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\calc]
-    @="Calculator"
-    "icon"="calc.exe"
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\calc\command]
-    @="calc.exe"
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Menu1]
+"MUIVerb"="Apps"
+"SubCommands"="cmd;powershell"
+"icon"="C:\Program Files (x86)\Icons\command.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Powershell]
+@="Powershell"
+"icon"="powershell.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Powershell\command]
+@="powershell.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Cmd_]
+@="Command"
+"icon"="cmd.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Cmd_\command]
+@="cmd.exe"
