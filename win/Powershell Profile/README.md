@@ -1,2 +1,2 @@
 -
-![Directory structure](https://raw.githubusercontent.com/mnmnc/img/master/medved_tree.jpg)
+![Directory structure](https://raw.githubusercontent.com/mnmnc/img/master/pshell_out.jpg)
