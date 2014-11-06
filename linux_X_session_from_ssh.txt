@@ -1,0 +1,1 @@
+screen -S STARTX -d -m startx -- :0 &
